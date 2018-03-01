@@ -1,3 +1,13 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: url(https://openclipart.org/image/2400px/svg_to_png/132421/banjo.png);  
+}
+
+.jumbotron {
+    background-color: teal;
+    color: white;
+}
+
 
 #btnTag {
     margin-right: 5px;
