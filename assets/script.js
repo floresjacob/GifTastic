@@ -52,7 +52,7 @@
           console.log(response.data[i]) 
           var rating = response.data[i].rating
           var link = response.data[i].bitly_gif_url
-          var thumbnail = $("<div class='panel panel-default'><div class='panel-body'><img id='vid' state='still' anim="+response.data[i].images.fixed_height.url+" still="+response.data[i].images.fixed_height_still.url+" src='"+response.data[i].images.fixed_height_still.url+"'></div><div class='panel-footer'>Rating: "+rating+"</div></div>")
+          var thumbnail = $("<div class='panel panel-default'><div class='panel-body'><img class='img-responsive' id='vid' state='still' anim="+response.data[i].images.fixed_height.url+" still="+response.data[i].images.fixed_height_still.url+" src='"+response.data[i].images.fixed_height_still.url+"'></div><div class='panel-footer'>Rating: "+rating+"</div></div>")
           $(gifs).prepend(thumbnail)
         }
       })
